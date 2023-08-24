@@ -1,0 +1,49 @@
+
+  
+
+.sideBarContainer{
+  width: 300px;
+  background-color: gray;
+
+  &__icons {
+    margin-bottom: 5px;
+    padding: 20px;
+  }
+
+  &__section {
+    display: flex;
+    place-items: center;
+    justify-content: space-around;
+    align-items: center;
+    // display: grid;
+    // grid-template-columns: auto 1fr;
+    // grid-gap: 30px; /* Adjust the value to add space between the image and text*/
+    // align-items: center;
+    text-decoration: none;
+    color: black;
+
+    span {
+      margin: -40px 10px;
+    }
+    &__downArrow {
+      margin: 0 30px;
+    }
+
+    img {
+      width: 30px;
+      height: 30px;
+    }
+  }
+  &__line {
+    margin: 0 10px;
+    width: 280px;
+    height: 10px;
+    border-top: 1px solid black;
+  }
+  &__header {
+    padding: 20px;
+  }
+  &__seeMore {
+    padding: 20px;
+  }
+}

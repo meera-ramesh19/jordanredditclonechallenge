@@ -1,0 +1,96 @@
+.newsFeed {
+    width: 520px;
+  
+    &__dropDownButtons {
+      display: flex;
+      justify-content: space-around;
+      padding: 5px 0;
+    }
+    &__line {
+      width: 200px;
+      height: 47px;
+      margin-top: 10px;
+      border-top: 1px solid black;
+    }
+    &__lineBreak {
+      width: 500px;
+      height: 50px;
+      border-bottom: 1px solid black;
+    }
+    &__box {
+      display: flex;
+      gap: 3px;
+    }
+    &__feed {
+      margin: 25px 10px;
+    }
+    &__article {
+      width: 500px;
+      height: 150px;
+      margin: 25px 0px;
+      background-color: #353935;
+      border-radius: 15px;
+      display: block;
+    }
+    &__info {
+      display: flex;
+      justify-content: flex-start;
+      color: white;
+      margin: 0px 15px;
+      padding-top: 20px;
+      img {
+        width: 30px;
+        height: 30px;
+      }
+    }
+    &__author {
+      margin: 0 15px;
+    }
+    &__time {
+      color: gray;
+    }
+    &__ellipses {
+      margin-left: auto;
+      color: white;
+    }
+    &__content {
+      margin: 20px 15px;
+      color: white;
+    }
+    &__likeUnlike {
+      display: flex;
+      width: 70px;
+      gap: 10px;
+      padding: 5px;
+      background-color: #202020;
+    }
+    &__likeUnlikeCount {
+      color: white;
+    }
+    &__commentIcon {
+      display: flex;
+      width: 70px;
+      gap: 10px;
+      padding: 5px;
+      background-color: #202020;
+    }
+    &__comment {
+      color: white;
+    }
+    &__socialIcons {
+      display: flex;
+      gap: 20px;
+      margin-left: 15px;
+    }
+    &__shareIcon {
+      display: flex;
+      width: 70px;
+      gap: 10px;
+      padding: 5px;
+      background-color: #202020;
+    }
+    &__share {
+      color: white;
+    }
+  }
+  
